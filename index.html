@@ -1,97 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <style>
-    body {
-      font-family: 'Source Sans Pro', sans-serif;
-      margin: 0;
-      background: #ffffff;
-      color: #2c3e50;
-      line-height: 1.6;
-    }
-
-    header {
-      background: #1c1c1c;
-      color: white;
-      padding: 2rem 1rem;
-      text-align: center;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-
-    header p {
-      font-size: 1.2rem;
-      color: #ccc;
-    }
-
-    nav {
-      background: #f4f4f4;
-      padding: 0.5rem 1rem;
-      text-align: center;
-    }
-
-    nav a {
-      margin: 0 1rem;
-      text-decoration: none;
-      color: #333;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      color: #007acc;
-    }
-
-    main {
-      max-width: 900px;
-      margin: auto;
-      padding: 2rem 1rem;
-    }
-
-    section {
-      margin-bottom: 3rem;
-    }
-
-    h2 {
-      border-bottom: 2px solid #eee;
-      padding-bottom: 0.5rem;
-    }
-
-    ul {
-      padding-left: 1.2rem;
-    }
-
-    footer {
-      background: #1c1c1c;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
-      font-size: 0.9rem;
-    }
-
-    a {
-      color: #007acc;
-    }
-
-    .profile-photo {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      float: right;
-      margin-left: 1rem;
-      margin-bottom: 1rem;
-      object-fit: cover;
-    }
-  </style>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Param Desai</title>
-  <img src="paramprofile.png" alt="Dr. Your Name" class="profile-photo" />
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet"/>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Param Desai | Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
@@ -101,59 +15,26 @@
 </header>
 
 <nav>
-  <a href="#about">About</a>
-  <a href="#Affiliations">Affiliations</a>
-  <a href="#publications">Publications</a>
-  <a href="#teaching">Teaching</a>
-  <a href="#contact">Contact</a>
+  <a href="index.html">Home</a>
+  <a href="publications.html">Publications</a>
+  <a href="talks.html">Talks/Lectures</a>
+  <a href="research.html">Research</a>
+  <a href="tutoring.html">Tutoring</a>
 </nav>
 
 <main>
   <section id="about">
+    <img src="paramprofile.png" alt="Param Desai" class="profile-photo" />
     <h2>About Me</h2>
-    
-    <p>I am an undergraduate student studying Computer Science and Mathematics at California State University, Northridge. My research focuses on theoretical aspects of Deep Learning as well developing models for broader applications.</p>
-  </section>
-  <section id="Affiliations">
-  <h2>Affiliatons</h2>
-  <ul>
-    <li>
-      <strong>Abrol Lab of Computational Biochemistry and Biophysics</strong><br />
-      I work on Topological Classification of Ig (Immunoglobulin folds) using Machine Learning Algorithms for protein structure analysis under 
-      <a href="https://scholar.google.com/citations?user=Rx4msKkAAAAJ&hl=en">Ravi Abrol</a> and research scientists at the National Institute of Health (NIH).
-    </li>
-    <li>
-      <strong><a href="https://csun-tavlab.github.io/">TAV-Lab</a></strong><br />
-      Contributed in creating a new Parsing technique; Iterator-Based Parser Combinators to efficiently parse ambiguous grammars under 
-      <a href="https://kyledewey.github.io/">Kyle Dewey</a>.
-    </li>
-    <li>
-      <strong><a href="https://arcs.center/">NASA-JPL Autonomy Research Center for STEAMH (2023–2025)</a></strong><br />
-      I was a Research Fellow, where I worked on finding novel neural network architectures to improve accuracy in Vehicle Detection and Classification on 3D LiDAR Point Clouds under 
-      <a href="https://www.csun.edu/~xjiang/">Xunfei Jiang</a>.
-    </li>
-  </ul>
-  </section>
-     
-  <section id="publications">
-    <h2>Publications and Presentations</h2>
-    <ul>
-      <li><strong>Iterator-Based Parser Combinators for Ambiguous Grammars
-</strong>.CSCSU, 2025(Runner-up for Best paper).</li>
-      <li><strong>Towards a dynamical and topological classification of Ig-folds: Nanobodies and Beyond</strong>.CSUNPosium, 2025(Poster).</li>
-      <li><strong>3D Vehicle Detection and Classification for Roadside Traffic Flow monitoring
-</strong>.NSF REU: Data Science and Energy Efficient Workshop, 2024.(Poster)</li>
-      <li><strong>3D Vehicle Detection in Roadside Traffic Flow monitoring using Complex-YOLO</strong>.NASA Armstrong Flight Research Center, 2024.(Poster).</li>
-    </ul>
+    <p>I am an undergraduate student studying Computer Science and Mathematics at California State University, Northridge. My research focuses on theoretical aspects of Deep Learning as well as developing models for broader applications.</p>
   </section>
 
-  <section id="teaching">
-    <h2>Tutoring</h2>
-    <p>I tutor math at Learning Resource Center at CSUN</p>
+  <section id="news">
+    <h2>News & Updates</h2>
     <ul>
-      <li>Math 340:Probability and Statistics</li>
-      <li>Math 150A,150B,250: Calculus</li>
-      <li>Math 105,106,102: Precalculus</li>
+      <li><strong>May 2025:</strong> Presented paper at CSCSU 2025 (Runner-up for Best Paper).</li>
+      <li><strong>April 2025:</strong> Poster presentation at CSUNPosium on Ig-fold classification.</li>
+      <li><strong>August 2024:</strong> Research featured at NASA Armstrong Flight Research Center.</li>
     </ul>
   </section>
 
@@ -165,7 +46,7 @@
 </main>
 
 <footer>
-  &copy; 2025 Param Desai | Last updated May 2025
+  &copy; 2025 Param Desai | Last updated November 2025
 </footer>
 
 </body>
